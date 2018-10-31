@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PAGINA WEB-login</title>
+</head>
+<body>
+<header>NOMBRE DE LA AEROLINEA</header>
+<h1 align="center">Iniciar sesion</h1><br>
+<center>
+<img src="C:\Users\Daniel Osorio\Desktop\Programacion\proyectoFinal\static\avion.jpg" alt="logo compañia" style="width: 50px;height: 50px;">
+</center>
+<form align="middle" action="{{url_for('iniciarSesion')}}" method="POST">
+	<p align="center">Nombre de usuario:</p><br>
+	<input type="text" name="iniciarSesion" align="center"><br>
+	<p align="center">Contraseña:</p><br>
+	<input type="text" name="contraseña" align="center"><br><br>
+	<input type="submit" name="iniciar sesion" value="iniciar sesion" align="center">
+</form><br>
+<p align="center">¿No tienes cuenta?<a href="{{url_for('crearCuenta')}}"> !Crea una¡</a></p>
+
+</body>
+</html>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+

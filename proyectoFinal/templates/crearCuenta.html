@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PAGINA WEB-crearCuenta</title>
+</head>
+<body>
+<header>CREAR CUENTA</header>
+<h1 align="center" action="{{ url_for('crearCuenta') }}">Crear cuenta</h1><br>
+<form align="middle" method="POST">
+	<p align="center">Nombre de usuario:</p><br>
+	<input type="text" name="nombreUsuario" align="center"><br>
+	<p align="center">Contraseña:</p><br>
+	<input type="text" name="contraseña" align="center"><br>
+	<p align="center">Preferencias:</p><br>
+	<input type="text" name="preferencias"   align="center"><br><br>
+	<button type="submit" align="center ">Crear cuenta</button> 
+</form><br>
+
+</body>
+</html>
+	
